@@ -1,0 +1,8 @@
+<app-post-list-item-component
+*ngFor="let postelt of postArray"
+[title]="postelt.title"
+[content]="postelt.content"
+[loveIts]="postelt.loveIts"
+[created_at]="postelt.created_at">
+
+></app-post-list-item-component>
